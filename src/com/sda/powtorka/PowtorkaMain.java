@@ -15,6 +15,7 @@ public class PowtorkaMain {
         int number = scanner.nextInt();
         int sideA;
         int sideB;
+        int sideC;
         switch(number) {
 
             case 1:
@@ -30,6 +31,12 @@ public class PowtorkaMain {
                 int side = scanner.nextInt();
                 Square square = new Square(side);
                 square.draw();
+                break;
+            case 3:
+                System.out.println("Please insert length of side");
+                sideC = scanner.nextInt();
+                Triangle triangle = new Triangle(sideC);
+                triangle.draw();
                 break;
 
 
