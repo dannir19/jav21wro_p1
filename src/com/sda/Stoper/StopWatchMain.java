@@ -6,7 +6,7 @@ public class StopWatchMain {
 
         StopWatch stopwatch = new StopWatch();
 
-        int [] tab = new int [100];
+        int [] tab = new int [1000000];
 
 
         stopwatch.start();
